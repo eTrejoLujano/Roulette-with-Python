@@ -2,7 +2,7 @@ import random
 
 
 def spin_ball():
-    spin = str(random.randint(35, 36))
+    spin = str(random.randint(0, 37))
     if spin == "37":
         print(f"The ball spin is : 00")
         return("00")
