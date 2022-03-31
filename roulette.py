@@ -1,4 +1,3 @@
-import numpy as np
 from Actions.spin import spin_ball
 from Actions.table import show_table
 from Actions.bets import straight_up
@@ -78,7 +77,7 @@ while True:
 
     if choice == 1:
         print("TIME TO PLAY")
-        # show_table()
+   
         while True:
             straight = input(
                 "Straight up (Single Number)?\n Enter your choices one at a time and enter 'Done' when finished.\n ").lower()
