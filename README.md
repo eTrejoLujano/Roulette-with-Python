@@ -7,7 +7,7 @@ My starting point for the project was to develop the game with the methods I was
 
 # Room for Improvement 
 Although the program runs fine, there are a good amount of areas to improve on. 
-To start, the project lacks OOP (Object Oriented Programming). When I revisit this project I am looking to rework the whole 'defined function' system so the program has more space complexity. The code also has a lot of repition for how each 'while' function is structured; OOP will help elimnate all code that is continously repeated. 
+To start, the project lacks OOP (Object Oriented Programming). When I revisit this project I am looking to rework the whole 'defined function' system so the program has more space complexity. The code is too repetitive for how each 'while' function is structured; OOP will help elimnate all code that is continously repeating. 
 Another area for improvement is utilizing NumPy to gain more familiarity with the library while achieving a faster running program. NumPy will help the code take up less memory because of its memory management features. NumPy will also provide a solution for how the data is inputted for certain bets. The bets that have multiple numbers involved for its input require that you place the numbers from least to greatest and have them seperated by commas. NumPy will help get rid of that restriction because of the ascending and descending feature it has to offer for arrays (lists). NumPy will help organize the inputted list from the player in a format that will be recognized by the game in any order the player chooses. 
 
 # Additional Features for the Future
